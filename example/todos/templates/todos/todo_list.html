@@ -1,0 +1,13 @@
+<h1>Todos</h1>
+<ul>
+  {% for todo in todos %}
+  <li>
+    <p>
+      {{ todo.text }}<br />
+      <a href="{% url 'todos:update' todo.id %}">update</a>
+      <a href="{% url 'todos:delete' todo.id %}">delete</a>
+    </p>
+  </li>
+  {% endfor %}
+</ul>
+<a href="{% url 'todos:create' %}">Add todo</a>

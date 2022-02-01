@@ -1,0 +1,7 @@
+<h1>{{ mode|capfirst }} Todo</h1>
+
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <input type="submit" value="{{ mode|capfirst }}" />
+  <a href="{% url 'todos:list' %}">Cancel</a>
+</form>
