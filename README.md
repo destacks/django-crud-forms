@@ -1,6 +1,6 @@
-# django-restful-forms
+# django-crud-forms
 
-Make forms in Django RESTful.
+Use HTTP CRUD methods in your Django forms.
 
 ## Background:
 
