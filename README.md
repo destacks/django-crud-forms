@@ -2,6 +2,8 @@
 
 Use HTTP CRUD methods in your Django forms.
 
+Please note this project is in the early stages and not yet ready to use!
+
 ## Background:
 
 - [Form handling with class-based views | Django documentation | Django](https://docs.djangoproject.com/en/4.0/topics/class-based-views/generic-editing/)
